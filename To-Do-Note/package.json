@@ -6,9 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "",
-    "dev": "nodemon ./src/index.ts"
+    "dev": "nodemon ./src/notes/infrastructure/http/NoteApi.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "helmet": "^7.1.0"
+  }
 }
